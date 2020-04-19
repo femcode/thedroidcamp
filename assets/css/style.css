@@ -333,15 +333,13 @@ label {
     height: 10px;
     width: 10px;
     border-radius: 50%;
-    background: #44ce6f;
+    background: #171817;
     -webkit-animation-duration: 3s;
     animation-duration: 3s;
     -webkit-animation-timing-function: linear;
     animation-timing-function: linear;
     -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
-    -webkit-animation-name: MOVE-BG;
-    animation-name: MOVE-BG;
 }
 
 .section-title .sub-title {
@@ -2104,6 +2102,8 @@ Features CSS
     border-radius: 5px;
     -webkit-transition: 0.5s;
     transition: 0.5s;
+    border-color: blanchedalmond;
+    border: 1px solid #d2d4d2;
 }
 
 .single-hosting-features h3 {
@@ -2117,10 +2117,9 @@ Features CSS
     width: 55px;
     height: 55px;
     line-height: 55px;
-    background: #cdf1d8;
     display: inline-block;
     border-radius: 50%;
-    color: #44ce6f;
+    color: #ffffff;
     -webkit-transition: 0.5s;
     transition: 0.5s;
 }
@@ -2141,7 +2140,7 @@ Features CSS
     position: absolute;
     width: 0;
     height: 4px;
-    background: #44ce6f;
+    background: #eff1f0;
     opacity: 0;
     visibility: hidden;
     bottom: 0;
@@ -2165,7 +2164,7 @@ Features CSS
 }
 
 .single-hosting-features:hover .icon {
-    background: #44ce6f;
+    background: transparent;
     color: #ffffff;
 }
 
@@ -5186,10 +5185,10 @@ FAQ CSS
     display: block;
     padding: 12px 20px 12px 51px;
     text-decoration: none;
-    color: #0e314c;
+    color: #ffffff;
     position: relative;
     border-bottom: 1px solid #ffffff;
-    background: #f5f9ff;
+    background: #44ce6f;
     font-size: 16px;
     font-weight: 500;
 }
@@ -6462,10 +6461,10 @@ Contact CSS
     width: 65px;
     height: 65px;
     line-height: 62px;
-    background: #f7fafd;
+    background: #44ce6f;
     border-radius: 50%;
     font-size: 30px;
-    color: #44ce6f;
+    color: #ffffff;
     -webkit-transition: .4s;
     transition: .4s;
 }
@@ -6975,7 +6974,6 @@ Repair About CSS
     top: 0;
     height: 100%;
     width: 100%;
-    background: linear-gradient(135deg, #23bdb8 0%, #43e794 100%);
     opacity: 0;
     visibility: hidden;
     position: absolute;
@@ -6987,7 +6985,7 @@ Repair About CSS
 
 .repair-about-content ul li span:hover,
 .repair-about-content ul li span:focus {
-    color: #ffffff;
+    color: #6084a4;
     -webkit-transform: translateY(-5px);
     transform: translateY(-5px);
 }
@@ -9846,5 +9844,38 @@ Go Top CSS
     background: #44ce6f;
 }
 
+#fh5co-started {
+    padding: 7em 0;
+    clear: both;
+}
 
-/*# sourceMappingURL=style.css.map */
+.js .animate-box {
+    opacity: 0;
+}
+
+.fadeInUp {
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+}
+
+.animated-fast {
+    -webkit-animation-duration: .5s;
+    animation-duration: .5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.break {
+    margin-bottom: 200px;
+}
+
+.section-title h1 {
+    margin-bottom: 0;
+    text-transform: capitalize;
+    font-size: 38px;
+    font-weight: 600;
+}
+
+.repair-why-choose-us .section-title h1 {
+    color: #ffffff;
+}
